@@ -1,1 +1,2 @@
 *.py
+!important -quiz game.py
