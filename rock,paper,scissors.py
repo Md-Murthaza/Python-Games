@@ -1,34 +1,34 @@
-# import random
+import random
 
-# #rock wins against scissors
-# #paper wins against rock
-# #scissors wins against paper
+#rock wins against scissors
+#paper wins against rock
+#scissors wins against paper
 
-# #0 is rock
-# #1 is paper
-# #2 is scissors
+#0 is rock
+#1 is paper
+#2 is scissors
 
-# rock ="🪨"
-# paper ="📃"
-# scissors="✂️"
-# game_images=[rock,paper,scissors]
-# user_input=int(input("Enter the number o to 2 to play rock,paper,scissors:"))
-# if user_input>=3 or user_input<0:
-#     print("you have entered an invalid number")
-# else:
-#     print(f"The user has chosen {game_images[user_input]}")
-#     comp_choice=random.randint(0,2)
-#     print(f"The computer chose this {game_images[comp_choice]}")
-#     if user_input==comp_choice:
-#          print("The Game is drawn")
-#     elif comp_choice ==0 and user_input==2:
-#         print("you lose")
-#     elif user_input==0 and comp_choice==2:
-#         print("you win")
-#     elif comp_choice > user_input:
-#         print("you lose")
-#     elif user_input > comp_choice:
-#         print("you win")
+rock ="🪨"
+paper ="📃"
+scissors="✂️"
+game_images=[rock,paper,scissors]
+user_input=int(input("Enter the number o to 2 to play rock,paper,scissors:"))
+if user_input>=3 or user_input<0:
+    print("you have entered an invalid number")
+else:
+    print(f"The user has chosen {game_images[user_input]}")
+    comp_choice=random.randint(0,2)
+    print(f"The computer chose this {game_images[comp_choice]}")
+    if user_input==comp_choice:
+         print("The Game is drawn")
+    elif comp_choice ==0 and user_input==2:
+        print("you lose")
+    elif user_input==0 and comp_choice==2:
+        print("you win")
+    elif comp_choice > user_input:
+        print("you lose")
+    elif user_input > comp_choice:
+        print("you win")
 
 mylist = ['apple', 'banana', 'cherry']
 create_list=[a for a in mylist if a=="banana"]
